@@ -1,8 +1,7 @@
 $width: 23px;
 $height: 2.5px;
 $menu-color: #fff;
-$colorprincipal: #F5AE51;;
-
+$colorprincipal: #f0c929;
 
 *{
     margin: 0;
@@ -293,7 +292,7 @@ body{
             background-color: transparent;
             display: flex;
             top: 17px;
-            left: 490px;
+            left: 430px;
             width: 0;
             .menu__item{
                 margin-right: 70px;
@@ -302,6 +301,27 @@ body{
         }
     
     }
+    @media screen and  (min-width: 1270px) {
+        .menu{
+            width: 0;
+            transform: none;
+            background-color: transparent;
+            display: flex;
+            top: 17px;
+            left: 640px;
+            
+            .menu__item{
+                margin-right: 70px;
+                
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
     @media screen and  (min-width: 1439px) {
         .menu{
             width: 0;
@@ -335,14 +355,14 @@ body{
     
 
     }
-    @media screen and  (min-width: 1839px) {
+    @media screen and  (min-width: 1915px) {
         .menu{
             width: 0;
             transform: none;
             background-color: transparent;
             display: flex;
             top: 17px;
-            left: 1270px;
+            left: 1170px;
             
             .menu__item{
                 margin-right: 100px;
@@ -514,7 +534,7 @@ body{
             }
             .tecnologis:hover{
                 color: #fff;
-                transition: all .8s;
+                transition: all .2s;
                 font-weight: 400;
                 
                 
