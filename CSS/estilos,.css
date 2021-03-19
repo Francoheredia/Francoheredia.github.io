@@ -1,0 +1,108 @@
+
+
+header{
+    height: 100vh;
+    background-image: url(/img/pexels-brady-knoll-5409751.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-blend-mode: soft-light;
+}
+
+/*Nav menu*/
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-list ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-list li a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+
+/* Presentacion-menu */ 
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.tittle img{
+    border: 4px solid white;
+
+}
+
+.tittle h1 {
+    color: white;
+}
+
+.tittle h2 {
+    color: white;
+}
+
+.presentacion-list{
+    display: flex;
+
+}
+
+.presentacion-list li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+
+.presentacion-list li a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    color: #fff;
+}
+
+
+
+.presentacion-list li a:hover{
+    background-color: skyblue;
+    transition: all 1s;
+    font-weight: bold;
+}
+
+.tittle-principal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.tittle-secundario{
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
