@@ -496,7 +496,32 @@ body{
                 margin-top: 3rem;
                 text-align: left;
             }
+            @media screen and  (min-width: 1020px) {
+                .about__tittle{
+                    font-size: 2rem;
+                     margin-bottom: 35px;
+                     line-height: 4rem;
+                }
+                .about__text{
+                    font-size: 1.4rem;
+                    margin-bottom: 60px;
+                }
+     
+             }
+            @media screen and  (min-width: 1270px) {
+               .about__tittle{
+                   font-size: 2.7rem;
+                    margin-bottom: 35px;
+                    line-height: 4rem;
+               }
+               .about__text{
+                   font-size: 1.8rem;
+                   margin-bottom: 70px;
+               }
+    
+            }
         }
+
         .download{
             border: 1px solid $colorprincipal;
             background-color: $colorprincipal;

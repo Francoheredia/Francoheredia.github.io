@@ -409,6 +409,28 @@ body {
   margin-top: 3rem;
   text-align: left;
 }
+@media screen and (min-width: 1020px) {
+  .main-page .container-main .about .about__tittle {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    line-height: 4rem;
+  }
+  .main-page .container-main .about .about__text {
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1270px) {
+  .main-page .container-main .about .about__tittle {
+    font-size: 2.7rem;
+    margin-bottom: 35px;
+    line-height: 4rem;
+  }
+  .main-page .container-main .about .about__text {
+    font-size: 1.8rem;
+    margin-bottom: 70px;
+  }
+}
 .main-page .container-main .download {
   border: 1px solid #f0c929;
   background-color: #f0c929;
